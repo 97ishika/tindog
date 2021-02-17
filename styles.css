@@ -39,6 +39,16 @@ p {
   text-align: center;
 }
 
+/* pricing section */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-col {
+  padding: 2% 3%;
+}
+
 /* navigation bar */
 .navbar-brand {
   font-family: 'Ubuntu', sans-serif;
@@ -48,6 +58,35 @@ p {
 
 .navbar {
   padding-bottom: 2.5rem;
+}
+
+/* Testinomial section */
+#testimonials {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #ef8172;
+  color: white;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.press-img {
+  width: 15%;
+  margin: 20px 20px 50px 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
 }
 
 .nav-item {
@@ -61,6 +100,11 @@ p {
 
 .container-fluid {
   padding: 3% 15%;
+}
+
+h2 {
+  font-family: Montserrat;
+  line-height: 3rem;
 }
 
 .download-button {
